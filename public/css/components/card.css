@@ -1,0 +1,18 @@
+.manga {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #deb887;
+    border: 2px solid black;
+    margin: auto;
+}
+.manga>h1 {
+    font-size: 23px;
+    font-weight: 800;
+}
+.manga>p {
+    padding: 5px;
+    border-radius: 4px;
+    background: #dda55b;
+    margin-top: 10px;
+}
