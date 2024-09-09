@@ -11,13 +11,9 @@
 @section('content')
     <main class="homePage">
         <h1 class="titlePage">Essa é a home page</h1>
-        @component('components.card')
-            @slot('title')
-            Manga
-            @endslot
-            @slot('parag')
-            mongooo mongooo mongooo mongooo mongooo mongooo mongooo mongooo mongooo 
-            mongooo mongooo mongooo mongooo mongooo mongooo mongooo mongooo mongooo 
+        @component('components.inputs.inputText')
+            @slot('label')
+                Manga
             @endslot
         @endcomponent
     </main>

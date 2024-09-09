@@ -1,0 +1,29 @@
+._inputText {
+    border: 1px solid #070707;
+    border-radius: 4px;
+    width: max-content;
+    position: relative;
+}
+
+._inputText > input{
+    background: transparent;
+    border: 0px solid transparent;
+    outline: 0px solid transparent;
+    padding: 6px;
+    font-size: 20px;
+}
+
+._inputText > label{
+    font-size: 20px;
+    position:absolute;
+    font-weight: 600;
+    left: 6px;
+    transform: translateY(-50%);
+    top: 50%;
+    transition: 0.12s;
+}
+
+._inputText:has(input:focus) > label, ._inputText.hasValue > label{
+    top: 0%;
+    font-size: 15px;
+}
